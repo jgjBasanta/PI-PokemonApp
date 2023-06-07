@@ -11,6 +11,7 @@ const sequelize = new Sequelize(
       native: false, // lets Sequelize know we can use pg-native for ~30% more speed
    }
 );
+console.log(DB_HOST, DB_PASSWORD, DB_USER);
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
